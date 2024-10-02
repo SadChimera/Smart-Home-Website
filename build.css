@@ -1,0 +1,19 @@
+/* Demo CSS */
+
+
+
+/*
+----------------------------------------
+CSS Order of operations:
+1. Stylesheet
+2. Document Style
+3. Element Style
+----------------------------------------
+*/
+
+/* Inline vs Block Elements */
+body {
+    font-family: "Playwright", system-ui;
+    font-weight: 300;
+    font-color: 1em;
+}
