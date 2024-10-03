@@ -12,6 +12,10 @@ CSS Order of operations:
 */
 
 /* Inline vs Block Elements */
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Playwright", system-ui;
     font-weight: 300;
@@ -20,4 +24,21 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-size: 20px;
+}
+
+header > nav {
+    background-color: rgb(179, 143, 80);
+    padding: 1em;
+}
+
+/* Class selection */
+
+.flex-daddy {
+    display: flex; 
+}
+
+.content {
+    border: solid 1px black;
+    padding: 1em;
+    width: 75%;
 }
