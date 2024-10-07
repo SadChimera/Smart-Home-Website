@@ -4,12 +4,31 @@
 
 /* Some default styles to make each box visible. This targets all items with a class that starts with "box" */
 [class^="box"] {
-  color:white;
   font-size: 100px;
   text-align: center;
   text-shadow:4px 4px 0 rgba(0,0,0,0.1);
   padding:10px;
 }
+
+/* Colors for each box */
+.box1 
+.box2 
+.box3 
+.box4 
+.box5
+.box6 
+.box7 
+.box8 
+.box9 
+.box10 
+.box11 
+.box12
+.box13
+.box14
+.box15
+.box16
+.box17
+.box18
 
 /* We start writing our flexbox here. The above is just page setup */
 .flex-container {
@@ -18,7 +37,21 @@
     flex-wrap: wrap;
     justify-content: center;
     align-content: space-around;
-    border:10px solid rgb(218, 32, 32);
+    border: 10px solid rgb(218, 32, 32);
   max-width: 1280px;
   margin: 0 auto;
   height: 100vh;
+  }
+
+.box1 {
+  
+}
+.box2 {
+  
+}
+.box3 {
+  
+}
+.box4 {
+
+}
