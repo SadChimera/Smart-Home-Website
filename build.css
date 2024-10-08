@@ -20,7 +20,7 @@ body {
     font-family: "Playwright", system-ui;
     font-weight: 100;
     font-color: 1em;
-    background-color: rgb(31, 19, 82);
+    background-color: rgb(86, 128, 134);
 }
 header {
     font-size: 30px;
@@ -31,16 +31,16 @@ li {
 
 h1, h2, h3 {
     font-size: 50px;
-    color: rgb(219, 9, 9); 
+    color: rgb(43, 64, 156); 
 }
 
 header > nav {
-    background-color: rgb(74, 59, 121);
+    background-color: rgb(25, 53, 86);
     padding: 1em;
 }
 
 p {
-    background-color: rgb(159, 144, 218);
+    background-color: rgb(57, 157, 156);
     color: rgb(255, 255, 255);
     font-size: 25.5px;
 }
