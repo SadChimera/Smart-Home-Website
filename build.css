@@ -18,7 +18,7 @@ CSS Order of operations:
 
 body {
     font-family: "Playwright", system-ui;
-    font-weight: 300;
+    font-weight: 100;
     font-color: 1em;
     background-color: rgb(31, 19, 82);
 }
@@ -29,8 +29,24 @@ li {
     font-size: 25px;
 }
 
-h1, h2, h3, h4, h5, h6, h6, {
+h1, h2, h3, h4 {
     font-size: 20px;
+    color: rgb(219, 9, 9); 
+}
+
+h5, h6 {
+    font-size: 20px;
+    color: rgb(215, 239, 57);
+}
+
+h7, h8, h9, h10, h0 {
+    font-size: 20px;
+    color: rgb(255, 57, 225);
+}
+
+h11, h12, h13 {
+    font-size: 20px;
+    color: blue;
 }
 
 header > nav {
@@ -39,8 +55,9 @@ header > nav {
 }
 
 p {
-    background-color: rgb(49, 33, 110);
+    background-color: rgb(159, 144, 218);
     color: rgb(255, 255, 255);
+    font-size: 25.5px;
 }
 
 /* Class selection */
@@ -52,5 +69,5 @@ p {
 .content {
     border: solid 1px black;
     padding: 1em;
-    width: 75%;
+    width: 50%;
 }

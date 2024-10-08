@@ -6,7 +6,6 @@
 [class^="box"] {
   font-size: 100px;
   text-align: center;
-  text-shadow:4px 4px 0 rgba(0,0,0,0.1);
   padding:10px;
 }
 
@@ -29,6 +28,7 @@
 .box16
 .box17
 .box18
+.box19
 
 /* We start writing our flexbox here. The above is just page setup */
 .flex-container {
@@ -38,13 +38,13 @@
     justify-content: center;
     align-content: space-around;
     border: 10px solid rgb(218, 32, 32);
-  max-width: 1280px;
+  max-width: 120px;
   margin: 0 auto;
   height: 100vh;
   }
 
 .box1 {
-  
+  justify-content: center;
 }
 .box2 {
   
