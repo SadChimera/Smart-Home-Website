@@ -29,28 +29,13 @@ li {
     font-size: 25px;
 }
 
-h1, h2, h3, h4 {
-    font-size: 20px;
+h1, h2, h3 {
+    font-size: 50px;
     color: rgb(219, 9, 9); 
 }
 
-h5, h6 {
-    font-size: 20px;
-    color: rgb(215, 239, 57);
-}
-
-h7, h8, h9, h10, h0 {
-    font-size: 20px;
-    color: rgb(255, 57, 225);
-}
-
-h11, h12, h13 {
-    font-size: 20px;
-    color: blue;
-}
-
 header > nav {
-    background-color: rgb(38, 23, 88);
+    background-color: rgb(74, 59, 121);
     padding: 1em;
 }
 
