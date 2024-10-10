@@ -37,15 +37,11 @@
 .box25
 .box26
 .box27
-.box28
-.box29
-.box30
-.box31
 
 /* We start writing our flexbox here. The above is just page setup */
 .flex-container {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: space-around;
@@ -96,4 +92,108 @@
   order: 7;
   width: 150%;
   height: 50%;
+}
+.box8 {
+  order: 7;
+  width: 150%;
+  height: 50%;
+}
+
+.box9 {
+  order: 2;
+  width: 100%;
+  height: 32.3%;
+}
+
+.box10 {
+  order: 2;
+  width: 100%;
+  height: 32.3%;
+}
+
+.box11 {
+  order: -7;
+  width: 100%;
+  height: 35.5%;
+}
+
+.box12 {
+  order: 2;
+  width: 100%;
+  height: 32.3%;
+}
+
+.box13 {
+  order: 3;
+  width: 100%;
+  height: 32.3%;
+}
+
+.box14 {
+  order: 3;
+  width: 100%;
+  height: 32.3%;
+}
+
+.box15 {
+  order: 4;
+  width: 100%;
+  height: 40%;
+  justify-content: flex-start;
+}
+.box16 {
+  order: 5;
+  width: 100%;
+  height: 40%;
+  align-items: center;
+}
+
+.box17 {
+  order: 6;
+  width: 100%;
+  height: 40%;
+}
+
+.box18 {
+  order: 7;
+  width: 100%;
+  height: 40%;
+}
+.box19 {
+  order: 1;
+  width: 100%;
+  height: 40%;
+}
+.box20 {
+  order: 2;
+  width: 100%;
+  height: 40%;
+  align-items: center;
+}
+.box21 {
+  order: 2;
+  width: 100%;
+  height: 40%;
+  align-items: center;
+}
+
+.box23 {
+  order: 1;
+  width: 100%;
+  height: 40%;
+}
+.box24 {
+  order: 2;
+  width: 100%;
+  height: 40%;
+}
+.box25 {
+  order: 3;
+  width: 100%;
+  height: 40%;
+}
+.box26 {
+  order: 4;
+  width: 100%;
+  height: 40%;
 }
