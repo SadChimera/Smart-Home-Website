@@ -44,9 +44,10 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
     align-content: space-around;
     border: 10px solid rgb(218, 32, 32);
-  max-width: 120px;
+  max-width: 1280px;
   margin: 0 auto;
   height: 100vh;
   }
@@ -59,9 +60,9 @@
 }
 
 .box1 {
-  order: -8;
+  order: 1;
   width: 100%;
-  height: 32.3%;
+  height: 50%;
 }
 .box2 {
   order: 2;
@@ -72,6 +73,7 @@
   order: 3;
   width: 100%;
   height: 300%;
+  align-items: stretch;
 }
 .box4 {
   order: 4;
@@ -80,24 +82,25 @@
 }
 .box5 {
   order: 5;
-  width: 50%;
+  width: 100%;
   height: 50%;
 }
 .box6 {
   order: 5;
-  width: 50%;
+  width: 100%;
   height: 50%;
 }
 .box7 {
   order: 7;
-  width: 150%;
+  width: 100%;
   height: 50%;
 }
 .box8 {
   order: 7;
-  width: 150%;
+  width: 100%;
   height: 50%;
 }
+
 
 .box9 {
   order: 2;
@@ -196,4 +199,11 @@
   order: 4;
   width: 100%;
   height: 40%;
+}
+
+
+.box34 {
+  order: 0;
+  width: 100%;
+  height: 290%;
 }
