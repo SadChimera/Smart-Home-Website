@@ -1,4 +1,4 @@
-/* Demo CSS */
+/* build.css */
 
 
 
@@ -19,8 +19,8 @@ CSS Order of operations:
 body {
     font-family: "Playwright", system-ui;
     font-weight: 100;
-    font-color: 1em;
-    background-color: rgb(76, 95, 119);
+    font-color: rgb(0, 0, 0);
+    background-color: #4c5f77;
 }
 header {
     font-size: 30px;
@@ -31,17 +31,17 @@ li {
 
 h1, h2, h3, h4 {
     font-size: 50px;
-    color: rgb(255, 255, 255); 
+    color: #ffffff; 
 }
 
 header > nav {
-    background-color: rgb(20, 52, 90);
+    background-color: #1f3044;
     padding: 1em;
 }
 
 p {
-    background-color: rgb(57, 105, 157);
-    color: rgb(255, 255, 255);
+    background-color: #4c5f77;
+    color: #ffffff;
     font-size: 25.5px;
 }
 
