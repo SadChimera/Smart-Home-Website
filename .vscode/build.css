@@ -14,6 +14,7 @@ CSS Order of operations:
 /* Inline vs Block Elements */
 * {
     box-sizing: border-box;
+    color: rgb(191, 207, 239);
 }
 
 body {
