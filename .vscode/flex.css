@@ -10,7 +10,7 @@
   padding:10px;
 }
 
-/* Colors for each box */
+/* Each box */
 .box1 
 .box2 
 .box3 
@@ -39,6 +39,7 @@
 .box26
 .box27
 
+
 /* We start writing our flexbox here. The above is just page setup */
 .flex-container {
     display: flex;
@@ -53,71 +54,11 @@
   height: 100vh;
   }
 
-
-.box1 {
-  order: 1;
-  width: 100%;
-  height: 100%;
-  align-self: ;
-  flex-grow: 13;
-}
-.box2 {
-  order: 2;
-  width: 100%;
-  height: 30%;
-}
-.box3 {
-  order: 3;
-  width: 100%;
-  height: 0%;
-}
-.box4 {
-  order: 4;
+content.1 {
   width: 100%;
   height: 50%;
 }
-.box5 {
-  order: 5;
+content.2 {
   width: 100%;
-  height: 100%;
-}
-.box6 {
-  order: 6;
-  width: 42%;
-  height: 17%;
-}
-.box7 {
-  order: 7;
-  width: 42%;
-  height: 17%;
-}
-.box8 {
-  order: 8;
-  width: 42%;
-  height: 17%;
-}
-.box9 {
-  order: 9;
-  width: 42%;
-  height: 17%;
-}
-.box10 {
-  order: 10;
-  width: 42%;
-  height: 17%;
-}
-.box11 {
-  order: 11;
-  width: 42%;
-  height: 17%;
-}
-.box12 {
-  order: 12;
-  width: 42%;
-  height: 17%;
-}
-.box13 {
-  order: 13;
-  width: 42%;
-  height: 17%;
+  height: 50%;
 }
